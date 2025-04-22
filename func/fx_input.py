@@ -1,15 +1,21 @@
-def input_fx():
+# Función para testear si se da el comando de salir
+def exit_test(var):
+    return str(var).lower() == 'e'
+
+# Handler de inputs
+def parse_input(pars, frase, err, condition = lambda x: True):
     while True:
         try:
-            var = input('Ingrese un número entero u oprima e para salir')
-            if(var.lower() == 'e'): return 'e'
-            var = int(var)
-            return var
+            var = input(frase)
+            if(exit_test(var)):
+                return var
+            pars_var = pars(var)
+            if(condition(pars_var)):
+                return pars_var
+            else:
+                raise ValueError(err)
         except:
-            print('Por favor ingrese un número entero')
+            print(err)
 
-var = input_fx()
-if(var == 'e'): 
-    print('Ha salido del programa')
-else:
-    print(var)
+        
+            
