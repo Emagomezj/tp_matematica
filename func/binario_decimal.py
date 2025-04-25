@@ -33,8 +33,9 @@ def binario_decimal():
 
 ############################################## PRUEBA ###############################################################
 
-prueba = binario_decimal()
-if prueba == "exit":
-    print("Usted a salido del programa. Hasta luego!")
-else:
-    print("El numero binario ingresado en decimal es",prueba)
+def bin_dec():
+    prueba = binario_decimal()
+    if prueba == "exit":
+        print("Usted a salido del programa. Hasta luego!")
+    else:
+        print("El numero binario ingresado en decimal es",prueba)
