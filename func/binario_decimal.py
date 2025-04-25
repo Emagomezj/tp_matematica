@@ -31,7 +31,7 @@ def binario_decimal():
         except:
             print("El numero ingresado no corresponde a un numero binario") #Repite la instruccion hasta que se ingrese un numero entero
 
-###################################################################################################################
+############################################## PRUEBA ###############################################################
 
 prueba = binario_decimal()
 if prueba == "exit":
