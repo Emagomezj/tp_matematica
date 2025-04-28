@@ -1,12 +1,14 @@
 # 🔢 Conversor de Bases Numéricas
+### Primer práctico integrador Matemática I
 
 Una aplicación sencilla para convertir números entre base **decimal**, **binaria** y **hexadecimal**.
 
 Proyecto realizado por:
-- Tomás
-- Mauro
-- Ramiro
-- Emanuel
+- Ramiro García
+- Mauro Gaspar
+- Tomás Godoy
+- Emanuel Gómez Juárez
+
 ---
 
 ## 🚀 Funcionalidades
@@ -18,6 +20,11 @@ Proyecto realizado por:
 - Validación automática de entrada
 - Manejo de errores
 - Interfaz simple por consola
+
+---
+## 💻 Enlace al Video Explicativo en Youtube
+
+
 
 ---
 
